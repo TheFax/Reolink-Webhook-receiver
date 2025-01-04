@@ -11,7 +11,7 @@ A webhook is a method by which an application (in this case, your Reolink camera
 
 *   **Simplicity:** The code is intentionally kept simple to facilitate understanding and customization.
 *   **Python:** Written in Python, a widely used programming language with a vast standard library.
-*   **Customizable:** You can easily extend the functionalities to perform specific actions based on the received notifications.
+*   **Customizable:** You can easily extend the functionalities to perform specific actions based on the received notifications. If you want to customize this the actions to perform, probably you want to edit and insert your code in lines between 59 to 64.
 
 ## Requirements
 
