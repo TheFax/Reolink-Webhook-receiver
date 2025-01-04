@@ -23,3 +23,14 @@ A webhook is a method by which an application (in this case, your Reolink camera
 1.  The Reolink camera detects an event (e.g., motion).
 2.  The camera sends an HTTP POST request to your Python server, containing the event data.
 3.  Your Python server receives the request, analyzes its content, and can perform actions accordingly.
+
+## How to run this server
+Prerequisites:
+*   Python 3.x installed.
+*   Dependencies `http.server` and `json` present in the sysem (these are present by default in most cases).
+*   The `server_webhook_reolink.py` file.
+
+Run:
+```bash
+python server_webhook_reolink.py
+```
